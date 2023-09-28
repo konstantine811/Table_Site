@@ -4,8 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      table {
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <h1>Get started with table lesson</h1>
+    <table
+      width="500"
+      cellpadding="10"
+      cellspacing="10"
+      border="5px"
+      bgcolor="#151515"
+    >
+      <thead>
+        <tr>
+          <th scope="col">Number 1</th>
+          <th scope="col">Number 2</th>
+          <th scope="col">Number 3</th>
+          <th scope="col">Number 4</th>
+          <th scope="col">Number 5</th>
+          <th scope="col">Number 6</th>
+          <th scope="col">Number 7</th>
+          <th scope="col">Number 8</th>
+          <th scope="col">Number 9</th>
+          <th scope="col">Number 10</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1:</th>
+          <td colspan="5" rowspan="2">Number 2 so I'm this</td>
+          <td rowspan="2">7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">2:</th>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">3:</th>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">4:</th>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">5:</th>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
